@@ -1,0 +1,274 @@
+/* line 1, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.msg {
+  padding: 10px;
+  background: #222;
+  position: relative;
+}
+
+/* line 2, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.msg h1 {
+  color: #fff;
+}
+
+/* line 3, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.msg a {
+  margin-left: 20px;
+  background: #408814;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+/* line 4, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.msg a:hover {
+  background: #266400;
+}
+
+/* //-- yui-grids style overrides -- */
+/* line 7, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+body {
+  font-family: Georgia;
+  color: #444;
+}
+
+/* line 8, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#inner {
+  padding: 10px 80px;
+  margin: 1px auto;
+  background: #f5f5f5;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+}
+
+/* line 9, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.yui-gf {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* //-- header, body, footer -- */
+/* line 12, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#hd {
+  margin: 2.5em 0 3em 0;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 13, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#hd h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 14, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#bd, #ft {
+  margin-bottom: 2em;
+}
+
+/* //-- footer -- */
+/* line 17, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#ft {
+  padding: 1em 0 5em 0;
+  font-size: 92%;
+  text-align: center;
+}
+
+/* line 18, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#ft p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* //-- core typography and style -- */
+/* line 21, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#hd h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* line 22, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+h2 {
+  font-size: 152%;
+}
+
+/* line 23, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+h3, h4 {
+  font-size: 122%;
+}
+
+/* line 24, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+/* line 25, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+p {
+  font-size: 100%;
+  line-height: 18px;
+  padding-right: 3em;
+}
+
+/* line 26, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+a {
+  color: #990003;
+}
+
+/* line 27, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 28, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 29, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+li {
+  line-height: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 30, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+p.enlarge {
+  font-size: 144%;
+  padding-right: 6.5em;
+  line-height: 24px;
+}
+
+/* line 31, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+p.enlarge span {
+  color: #000;
+}
+
+/* line 32, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.contact-info {
+  margin-top: 7px;
+}
+
+/* line 33, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.first h2 {
+  font-style: italic;
+}
+
+/* line 34, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.last {
+  border-bottom: 0;
+}
+
+/* //-- section styles -- */
+/* line 39, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+a#pdf {
+  display: block;
+  float: left;
+  background: #666;
+  color: white;
+  padding: 6px 50px 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+
+/* line 40, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+a#pdf:hover {
+  background: #222;
+}
+
+/* line 42, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.job {
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 43, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.job h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0;
+}
+
+/* line 44, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.job p {
+  margin: 0.75em 0 3em 0;
+}
+
+/* line 46, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.last {
+  border: none;
+}
+
+/* line 48, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.skills-list ul {
+  margin: 0;
+}
+
+/* line 49, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.skills-list li {
+  margin: 3px 0;
+  padding: 3px 0;
+}
+
+/* line 50, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.skills-list li span {
+  font-size: 152%;
+  display: block;
+  margin-bottom: -2px;
+  padding: 0;
+}
+
+/* line 51, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.talent {
+  width: 32%;
+  float: left;
+}
+
+/* line 52, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.talent h2 {
+  margin-bottom: 6px;
+}
+
+/* line 54, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#srt-ttab {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* line 55, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+#srt-ttab img.last {
+  margin-top: 20px;
+}
+
+/* --// override to force 1/8th width grids -- */
+/* line 58, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.yui-gf .yui-u {
+  width: 80.2%;
+}
+
+/* line 59, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.yui-gf div.first {
+  width: 12.3%;
+}
+
+/* line 61, /Users/HP/Dev/indy/resume/app/assets/stylesheets/welcome.scss */
+.edu {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
